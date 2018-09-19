@@ -1,6 +1,6 @@
 
   nav {
-    width: 100%;
+    width: 100vw;
     height: auto;
     overflow: auto;
 }
@@ -44,7 +44,7 @@ a:hover .name-line {
     border-top: .5px solid rgb(255,255,255);
 }
 
-.name-line {
+/* .name-line {
     border-top: .5px solid rgb(55, 187, 174);
     padding: 52px;
     position: relative;
@@ -53,12 +53,12 @@ a:hover .name-line {
 
 .name-line-1 {top: 67px; right: 116px;}
 
-.name-line-2 {top: 15px;}
+.name-line-2 {top: 15px;} */
 
 ul {
     background-color: green;
     list-style-type: none;
-    line-height: 0;
+    line-height: 15px;
     margin-bottom: 70px;
     margin-right: 15%;
     /* margin-right: 50px; */
@@ -95,8 +95,8 @@ li:hover {
 } */
 
 footer {
-    width: 100%;
-    height: 70px;
+    width: 100vw;
+    height: auto;
     overflow: auto;
     background-color: gray;
     border-top: 10px solid rgb(55, 187, 174);

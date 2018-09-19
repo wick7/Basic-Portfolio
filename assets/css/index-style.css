@@ -1,10 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: auto;
  }
 
  main {
-     height: 80vh;
+     height: 960px;
      width: 100vw;
      /* background-color: rgb(219, 212, 212); */
      background-image: url('../images/grey_bg.jpg');
