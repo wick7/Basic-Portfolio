@@ -1,11 +1,36 @@
 
-  nav {
+/* MAIN */
+ 
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Saira Condensed', sans-serif;
+ }
+
+ main {
+     height: 960px;
+     width: 100vw;
+     background-image: url('../images/grey_bg.jpg');
+ }
+ 
+ nav {
     width: 100vw;
     height: auto;
     overflow: auto;
+    background-color: #ffffff;
 }
 
- /* name isnt resoponsive especially lines only active in portoflio page*/
+
+h1 {
+    color: rgb(55, 187, 174);
+}
+
+.line {
+    width: 50%;
+    border: 1px solid black;
+}
+
 
 .name { 
     float: left;
@@ -44,23 +69,12 @@ a:hover .name-line {
     border-top: .5px solid rgb(255,255,255);
 }
 
-/* .name-line {
-    border-top: .5px solid rgb(55, 187, 174);
-    padding: 52px;
-    position: relative;
-    transition: .6s all ease;
-}
-
-.name-line-1 {top: 67px; right: 116px;}
-
-.name-line-2 {top: 15px;} */
-
 ul {
     background-color: green;
     list-style-type: none;
     line-height: 15px;
     margin-bottom: 70px;
-    margin-right: 15%;
+    margin-right: 18%;
     /* margin-right: 50px; */
     /* margin-top: 15px;
     margin-bottom: 15px; */
@@ -69,15 +83,10 @@ ul {
 li {
     float: right;
     padding: 10px;
-    margin-right: 5px;
-    border-right: 2px solid grey;
+    margin-right: 15px;
     transition: .5s all ease;
 }
 
-/* li:nth-child(2) {
-    border-left: 2px solid grey;
-    
-} */
 
 li:hover {
     transform: translateY(-3px);
@@ -85,14 +94,6 @@ li:hover {
     color: white;
 }
 
-/* li:hover a {
-    color: white;
-} */
-
-/* a {
-    text-decoration: none;
-    color: black;
-} */
 
 footer {
     width: 100vw;

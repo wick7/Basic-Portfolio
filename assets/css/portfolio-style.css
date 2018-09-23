@@ -1,39 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
- }
-
- main {
-     height: 60rem;
-     width: 100vw;
-     /* background-color: rgb(219, 212, 212); */
-     background-image: url('../images/grey_bg.jpg');
-     
- }
-
-
-  h1 {
-      color: rgb(55, 187, 174);
-  }
-
-  .line {
-      width: 50%;
-      border: 1px solid black;
-  }
-
- 
-
-  /* Special to Portfolio */
 
 
   .port-con {
-      height: 55rem;
+      height: auto;
       width: 60%;
       background-color: white;
       position: absolute;
-      top: 75%;
+      top: 60%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -35%);
   }
 
   .port {
@@ -57,27 +31,27 @@ body {
 
   #card-1 {
       background-color: aqua; 
-      background-image: url('https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-image: url('../images/card_1.jpeg');
       background-size: 100% 100%;
       }
   #card-2 {
       background-color: green;
-      background-image: url('https://images.pexels.com/photos/270949/pexels-photo-270949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-image: url('../images/card_2.jpeg');
       background-size: 100% 100%;
       }
   #card-3 {
       background-color: yellow;
-      background-image: url('https://images.pexels.com/photos/802959/pexels-photo-802959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-image: url('../images/card_3.jpeg');
       background-size: 100% 100%;
       }
   #card-4 {
       background-color: teal;
-      background-image: url('https://images.pexels.com/photos/48605/pexels-photo-48605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-image: url('../images/card_4.jpeg');
       background-size: 100% 100%;
       }
   #card-5 {
       background-color: aqua;
-      background-image: url('https://images.pexels.com/photos/333984/pexels-photo-333984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+      background-image: url('../images/card_5.jpeg');
       background-size: 100% 100%;
       
       }

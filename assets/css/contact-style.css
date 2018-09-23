@@ -1,42 +1,13 @@
-body {
-    margin: 0;
-    padding: 0;
- }
 
- main {
-     height: 80vh;
-     width: 100vw;
-     /* background-color: rgb(219, 212, 212); */
-     background-image: url('../images/grey_bg.jpg');
- }
-
-
-  h1 {
-      color: rgb(55, 187, 174);
-  }
-
-  .line {
-      width: 50%;
-      border: 1px solid black;
-  }
-
-
-
-
-
-
-  /* Special to Contact */
-
- 
 
   .contact-con {
-      height: 70%;
+      height: auto;
       width: 60%;
       background-color: white;
       position: absolute;
-      top: 50%;
+      top: 48%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -35%);
   }
 
   .contact {
