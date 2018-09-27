@@ -63,7 +63,7 @@ main {
 }
 
 
-@media screen and (max-width: 600px) and (orientation: landscape) {
+@media screen and (max-width: 600px)  {
     main {
         height: 950px;
     }
@@ -95,7 +95,7 @@ main {
   
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape){
  
 
     .about-con {
