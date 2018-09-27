@@ -1,5 +1,9 @@
 
-
+main {
+    height: 960px;
+    width: 100vw;
+    background-image: url('../images/grey_bg.jpg');
+}
   .port-con {
       height: auto;
       width: 60%;

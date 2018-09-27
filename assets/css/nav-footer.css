@@ -6,13 +6,9 @@ body {
     padding: 0;
     overflow: auto;
     font-family: 'Saira Condensed', sans-serif;
+   
  }
 
- main {
-     height: 960px;
-     width: 100vw;
-     background-image: url('../images/grey_bg.jpg');
- }
  
  nav {
     width: 100vw;
