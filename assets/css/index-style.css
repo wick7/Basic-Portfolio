@@ -71,6 +71,7 @@ main {
     }
 
     .about-con {
+        position: relative;
         width: 80%;
         top: 76%;
     }
@@ -100,7 +101,7 @@ main {
 @media screen and (max-width: 700px) and (orientation: landscape) {
 
     main {
-        height: 960px;
+        height: 700px;
     }
 
     img  {
@@ -111,7 +112,7 @@ main {
 
     .about-con {
         width: 80%;
-        top: 130%;
+        top: 86%;
     }
 
     
