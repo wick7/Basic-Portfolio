@@ -12,18 +12,84 @@
 
     <style>
     
-   
+    .hamburger {
+        position: relative;
+        bottom: 40px;
+        left: 20%;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
+
+    .hamburger::after {
+        content: "";
+        position: relative;
+        top: 8px;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
+    .hamburger::before {
+        content: "";
+        position: relative;
+        top: 19px;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
+
     
+    
+    .dropDownOut {
+        background-color: white;
+        float: right;
+        position: absolute;
+        top: 80px;
+        left: 110%;
+        transition: .6s all ease-out;
+    }
+
+    .dropDownIn {
+        background-color: white;
+        float: right;
+        position: absolute;
+        top: 80px;
+        left: 66%;
+        transition: .6s all ease-in;
+    }
+
+    .dropDown__list {
+        list-style: none;
+        text-align: center;
+    }
+
+    .dropDown__link {
+        
+        position: relative;
+        top: 5px;
+        right: 20px;
+        color: grey;
+    }
+
     </style>
     
     <body>
+        <div id="dropDown" class="dropDownOut">
+            <ul class="dropDown__list">
+                <a href="index.html"><li class="dropDown__link">About</li></a>
+                <a href="portfolio.html"><li class="dropDown__link">Portfolio</li></a>
+                <a href="contact.html"><li class="dropDown__link">Contact</li></a>
+            </ul>
+        </div>
         <nav>
             <a href="index.html"><div class="name">CRAIG W</div></a>
-            <ul>
-                <a href="contact.html"><li>Contact</li></a>
-                <a href="portfolio.html"><li>Portfolio</li></a>
-                <a href="index.html"><li>About</li></a>
+            <ul class="reg-nav">
+                <a href="contact.html"><li class="reg-nav_links">Contact</li></a>
+                <a href="portfolio.html"><li class="reg-nav_links">Portfolio</li></a>
+                <a href="index.html"><li class="reg-nav_links">About</li></a>
             </ul>
+            <div onclick="dropMe()" class="hamburger"></div>
+            
         </nav>
         <main>
             <div class="about-con">
@@ -40,6 +106,21 @@
         </main>
         <div class="push"></div>
         <footer><span>Copyright &copy;</span></footer>
+
+        <script>
+        
+        function dropMe() {
+            // var element = document.getElementById("dropDownOut");
+            // element.classList.toggle("dropDownIn");
+
+            if(document.getElementById("dropDown").className == "dropDownOut") {
+                document.getElementById("dropDown").className = "dropDownIn";
+            } else{
+                document.getElementById("dropDown").className = "dropDownOut";
+            }
+        }
+
+        </script>
     </body>
 </html>
 
