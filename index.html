@@ -15,41 +15,38 @@
     .hamburger {
         position: relative;
         bottom: 40px;
-        left: 20%;
-        float: right;
         width: 45px;
-        border-top: 1px solid black;
     }
 
     .hamburger::after {
         content: "";
         position: relative;
-        top: 8px;
-        float: right;
         width: 45px;
-        border-top: 1px solid black;
     }
     .hamburger::before {
         content: "";
         position: relative;
-        top: 19px;
-        float: right;
         width: 45px;
-        border-top: 1px solid black;
     }
 
     
     
-    .dropDownOut {
+    #dropDownOut {
         background-color: white;
         float: right;
         position: absolute;
         top: 80px;
-        left: 110%;
+        left: 66%;
         transition: .6s all ease-out;
+        opacity: 0;
+        z-index: 400;
     }
 
-    .dropDownIn {
+    .show {
+        opacity: 1 !important;
+    }
+
+    /* .dropDownIn {
         background-color: white;
         float: right;
         position: absolute;
@@ -57,7 +54,7 @@
         left: 66%;
         transition: .6s all ease-in;
         z-index: 400;
-    }
+    } */
 
     .dropDown__list {
         list-style: none;
@@ -79,7 +76,7 @@
     </style>
     
     <body>
-        <div id="dropDown" class="dropDownOut">
+        <div id="dropDownOut">
             <ul class="dropDown__list">
                 <a href="index.html"><li class="dropDown__link">About</li></a>
                 <a href="portfolio.html"><li class="dropDown__link">Portfolio</li></a>
@@ -115,14 +112,8 @@
         <script>
         
         function dropMe() {
-            // var element = document.getElementById("dropDownOut");
-            // element.classList.toggle("dropDownIn");
-
-            if(document.getElementById("dropDown").className == "dropDownOut") {
-                document.getElementById("dropDown").className = "dropDownIn";
-            } else{
-                document.getElementById("dropDown").className = "dropDownOut";
-            }
+            var menu = document.getElementById("dropDownOut");
+            menu.classList.toggle("show");
         }
 
         </script>

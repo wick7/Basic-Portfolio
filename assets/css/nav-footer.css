@@ -71,9 +71,6 @@ a:hover .name-line {
     line-height: 15px;
     margin-bottom: 70px;
     margin-right: 18%;
-    /* margin-right: 50px; */
-    /* margin-top: 15px;
-    margin-bottom: 15px; */
 }
 
 .reg-nav_links {
@@ -106,13 +103,37 @@ footer {
 
 
 
-@media screen and (max-width: 600px) and (orientation: portrait) {
+@media screen and (max-width: 700px) and (orientation: portrait) {
     
     .reg-nav {
         visibility: hidden;
     }
 
-   
+    .hamburger {
+        position: relative;
+        bottom: 40px;
+        left: 20%;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
+
+    .hamburger::after {
+        content: "";
+        position: relative;
+        top: 8px;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
+    .hamburger::before {
+        content: "";
+        position: relative;
+        top: 19px;
+        float: right;
+        width: 45px;
+        border-top: 1px solid black;
+    }
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) and (orientation: landscape) {
@@ -139,4 +160,6 @@ footer {
         width: 40%;
         margin-left: 5%;
     }
+
+    
 }
