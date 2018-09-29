@@ -3,6 +3,7 @@ main {
     height: 680px;
     width: 100vw;
     background-image: url('../images/grey_bg.jpg');
+    position: relative;
 }
   .contact-con {
       height: auto;
@@ -66,8 +67,9 @@ main {
     }
 
     .contact-con {
+        position: absolute;
         width: 90%;
-        top: 76%;
+        top: 36%;
     }
 
     .contact {
@@ -106,7 +108,7 @@ main {
     .contact-con {
         position: relative;
         width: 80%;
-        top: 96%;
+        top: 36%;
     }
 
 }

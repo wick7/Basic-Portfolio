@@ -9,14 +9,12 @@ body {
    
  }
 
- 
  nav {
     width: 100vw;
     height: auto;
     overflow: auto;
     background-color: #ffffff;
 }
-
 
 h1 {
     color: rgb(55, 187, 174);
@@ -27,11 +25,10 @@ h1 {
     border: 1px solid black;
 }
 
-
 .name { 
     float: left;
     height: 70px;
-    width: 10%;
+    width: 18%;
     margin-left: 20%;
     
     /* background-color: rgb(55, 187, 174); */
@@ -50,6 +47,12 @@ h1 {
     color: white;
     background-position:left bottom;
 }
+
+/* .name-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+} */
 
 a:hover .name {
     color: white;
@@ -199,18 +202,13 @@ footer {
         width: 45px;
         border-top: 1px solid black;
     }
+
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) and (orientation: landscape) {
     .name { 
-        background-color: rgb(55, 187, 174); 
-        background:  rgb(55, 187, 174);
-        background-size: 200% 100%;
-        background-position: center;
-        color: white;
-        height: 500px;
-        width: 40%;
-        margin-left: 5%;
+        background-color: yellow;
+        line-height: 50px;
     }
 }
 
