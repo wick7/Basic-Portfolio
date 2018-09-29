@@ -3,6 +3,7 @@ main {
     height: 550px;
     width: 100vw;
     background-image: url('../images/grey_bg.jpg');
+    position: relative;
 }
 .about-con {
     height: auto;
@@ -71,9 +72,9 @@ main {
     }
 
     .about-con {
-        position: relative;
+        position: absolute;
         width: 80%;
-        top: 76%;
+        top: 36%;
     }
 
     .about {
@@ -112,7 +113,7 @@ main {
 
     .about-con {
         width: 80%;
-        top: 86%;
+        top: 36%;
     }
 
     
