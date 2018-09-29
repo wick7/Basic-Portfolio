@@ -63,7 +63,7 @@ main {
 
   @media screen and (max-width: 400px) and (orientation: portrait) {
     main {
-        height: 950px;
+        height: 730px;
     }
 
     .contact-con {
