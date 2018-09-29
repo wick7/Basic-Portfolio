@@ -112,8 +112,6 @@ a:hover .name-line {
     width: 45px;
 }
 
-
-
 #dropDownOut {
     background-color: white;
     float: right;
@@ -179,8 +177,8 @@ footer {
 
     .hamburger {
         position: relative;
-        bottom: 40px;
-        left: 45%;
+        bottom: 45px;
+        left: 40%;
         float: right;
         width: 45px;
         border-top: 1px solid black;
