@@ -28,13 +28,13 @@ h1 {
 .name { 
     float: left;
     height: 70px;
-    width: 18%;
+    width: 23%;
     margin-left: 20%;
     
     /* background-color: rgb(55, 187, 174); */
-    background: linear-gradient(to left, white 50%, rgb(55, 187, 174) 50%);
+    /* background: linear-gradient(to left, white 50%, rgb(55, 187, 174) 50%);
     background-size: 200% 100%;
-    background-position:right bottom;
+    background-position:right bottom; */
     line-height: 70px;
     text-align: center;
     font-size: 24px;
@@ -43,10 +43,10 @@ h1 {
     transition: .6s all ease;
 }
 
-.name:hover {
+/* .name:hover {
     color: white;
     background-position:left bottom;
-}
+} */
 
 /* .name-text {
     text-align: center;
@@ -54,10 +54,10 @@ h1 {
     font-weight: 300;
 } */
 
-a:hover .name {
+/* a:hover .name {
     color: white;
     background-position:left bottom;
-}
+} */
 
 a:hover .name-line {
     border-top: .5px solid rgb(255, 255, 255);
@@ -180,7 +180,7 @@ footer {
     .hamburger {
         position: relative;
         bottom: 40px;
-        left: 20%;
+        left: 45%;
         float: right;
         width: 45px;
         border-top: 1px solid black;
@@ -207,8 +207,8 @@ footer {
 
 @media screen and (max-width: 600px) and (orientation: portrait) and (orientation: landscape) {
     .name { 
-        background-color: yellow;
-        line-height: 50px;
+        background-color: rgb(55, 187, 174);
+        width: 10%;
     }
 }
 
